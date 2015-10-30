@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>FedericoMorando.it</title><link href="http://federicomorando.it/" rel="alternate"></link><link href="http://federicomorando.it/feeds/linked-coins.atom.xml" rel="self"></link><id>http://federicomorando.it/</id><updated>2010-11-09T00:00:00+01:00</updated><entry><title>Collections on Drupal - as open linked data, if you don't mind (?)</title><link href="http://federicomorando.it/collections-on-drupal-as-open-linked-data-if-you-dont-mind.html" rel="alternate"></link><updated>2010-11-09T00:00:00+01:00</updated><author><name>Federico Morando</name></author><id>tag:federicomorando.it,2010-11-09:collections-on-drupal-as-open-linked-data-if-you-dont-mind.html</id><summary type="html">&lt;p&gt;I'm thinking about a technical solution to easily put online collections of ancient coins, possibly using an open linked data approach...&lt;br /&gt;
+At the moment, I'm starting to look into the following Drupal modules (evolving list):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://drupal.org/project/cck"&gt;Content Construction Kit (CCK)&lt;/a&gt; and its 
+    &lt;a href="http://drupal.org/node/101723"&gt;Content Construction Kit Handbook&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://drupal.org/project/filefield"&gt;FileField CKK&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://drupal.org/project/linked_data"&gt;Linked Data&lt;/a&gt;.  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Actually, my favourite solution would likely go through CKAN, but I doubt that my cheap Aruba hosting can support it at the moment...&lt;/p&gt;</summary><category term="Drupal"></category></entry></feed>

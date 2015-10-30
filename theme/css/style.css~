@@ -205,7 +205,7 @@ figure.floatcenter, .align-center {
     color: #fff;
     font-size: 21px;
     line-height: 1.33;
-    opacity: 0.50;
+    opacity: 0.10;
 }
 #banner .btn, #banner .intro {
     margin-left: 4px;

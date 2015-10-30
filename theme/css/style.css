@@ -195,29 +195,17 @@ figure.floatcenter, .align-center {
 #banner h1 {
     color: #fff;
     font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif;
-<<<<<<< HEAD
     font-size: 40px;
-=======
-    font-size: 60px;
->>>>>>> 9eea8f568a98d66414ce60a5628b07253bfe5ec7
     font-stretch: condensed;
     font-weight: 700;
     line-height: 0.9;
     margin: 0;
-<<<<<<< HEAD
-=======
-    text-transform: uppercase;
->>>>>>> 9eea8f568a98d66414ce60a5628b07253bfe5ec7
 }
 #banner .intro {
     color: #fff;
     font-size: 21px;
     line-height: 1.33;
-<<<<<<< HEAD
-    opacity: 0.10;
-=======
-    opacity: 0.75;
->>>>>>> 9eea8f568a98d66414ce60a5628b07253bfe5ec7
+    opacity: 0.50;
 }
 #banner .btn, #banner .intro {
     margin-left: 4px;
