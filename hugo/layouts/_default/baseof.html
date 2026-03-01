@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="/css/site.css">
+  {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="RSS">{{ end }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">{{ .Site.Title }}</a>
+      <nav>
+        <a href="/posts/">Post</a>
+        <a href="/pages/">Pagine</a>
+        <a href="/categories/">Categorie</a>
+        <a href="/tags/">Tag</a>
+      </nav>
+    </div>
+  </header>
+
+  {{ with .Site.Params.banner }}
+  <div class="banner" style="background-image:url('{{ . }}');"></div>
+  {{ end }}
+
+  <main class="container">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="container footer">
+    <p>
+      <a href="{{ .Site.Params.social_twitter }}">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>

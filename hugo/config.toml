@@ -1,0 +1,30 @@
+baseURL = "https://federicomorando.net/"
+languageCode = "it"
+title = "Federico Morando"
+defaultContentLanguage = "it"
+timeZone = "Europe/Paris"
+[pagination]
+  pagerSize = 12
+
+enableRobotsTXT = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+[permalinks]
+  posts = "/posts/:slug/"
+  pages = "/pages/:slug/"
+
+[params]
+  description = "Appunti di Federico"
+  banner = "/images/banner.jpg"
+  social_twitter = "https://twitter.com/federicomorando"
+  professional_homepage = "https://federicomorando.net/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]

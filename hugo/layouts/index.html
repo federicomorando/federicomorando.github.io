@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>Ultimi contenuti</h1>
+{{ $p := .Paginate (where .Site.RegularPages "Section" "posts") }}
+{{ range $p.Pages }}
+<article class="card">
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <p class="meta">{{ .Date.Format "2006-01-02" }}{{ with .Params.categories }} | {{ index . 0 }}{{ end }}</p>
+  <p>{{ with .Summary }}{{ . }}{{ else }}{{ .Plain | truncate 180 }}{{ end }}</p>
+</article>
+{{ end }}
+{{ template "_internal/pagination.html" . }}
+{{ end }}
