@@ -180,6 +180,11 @@ img {
     align-items: flex-start;
   }
 
+  .banner {
+    height: 120px;
+    background-position: right center;
+  }
+
   nav {
     justify-content: flex-start;
   }
