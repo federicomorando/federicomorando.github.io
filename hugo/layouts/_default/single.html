@@ -1,7 +1,7 @@
 {{ define "main" }}
-<article>
+<article class="post-layout">
   <h1>{{ .Title }}</h1>
-  <p class="meta">
+  <p class="meta meta-primary">
     {{ with .Date }}{{ .Format "2006-01-02" }}{{ end }}
     {{ with .Params.author }} | {{ . }}{{ end }}
   </p>
